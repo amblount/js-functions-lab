@@ -25,8 +25,14 @@ function maxOfThree(a,b,c) {
 }
 
 // Question 3
-function isCharacterAVowel() {
-
+function isCharacterAVowel(letter) {
+  var letter = letter;
+  var vowels = ["a","e","i","o","u"];
+  if(vowels.includes(letter) == true){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 // Question 4

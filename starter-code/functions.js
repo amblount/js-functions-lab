@@ -11,8 +11,17 @@ function maxOfTwoNumbers(x,y) {
 }
 
 // Question 2
-function maxOfThree() {
-
+function maxOfThree(a,b,c) {
+	var large = a;
+	 if(a > b && a > c) {
+	 	return large;
+	 } else if(b > a && b > c) {
+	 	large = b;
+	 	return large;
+	 } else  {
+	 	large = c
+	 	return large;
+	 }
 }
 
 // Question 3
